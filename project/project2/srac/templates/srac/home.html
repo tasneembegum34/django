@@ -1,0 +1,14 @@
+<h1>STRING REVERSE AND CONCATENATION</h1>
+<a href="{% url 'home' %}">Enter three strings:</a>
+<form action="{% url 'concatenate' %}">
+<label for="str1" >String-1:</label>
+<textarea cols="30" rows="1" id="str1" name="fulltext1"></textarea>
+<br/>
+<label for="str2" >String-2:</label>
+<textarea cols="30" rows="1" id="str2" name="fulltext2"></textarea>
+<br/>
+<label for="str3" >String-3:</label>
+<textarea cols="30" rows="1" id="str3" name="fulltext3"></textarea>
+<br/>
+<input type="submit" value="concatenate"/>
+</form>
